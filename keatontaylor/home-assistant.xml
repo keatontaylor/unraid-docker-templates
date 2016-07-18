@@ -25,14 +25,14 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/app_config/home-assistant/</HostDir>
+      <HostDir>/mnt/user/Docker/home-assistant/</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8123]</WebUI>
-  <Banner>https://raw.githubusercontent.com/balloob/unraid-docker-templates/master/balloob/home-assistant-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/balloob/unraid-docker-templates/master/balloob/home-assistant-icon.png</Icon>
-  <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/home-assistant" Mode="rw" Description="This path is where Home Assistant will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Banner>https://raw.githubusercontent.com/keatontaylor/unraid-docker-templates/master/keatontaylor/home-assistant-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/keatontaylor/unraid-docker-templates/master/keatontaylor/home-assistant-icon.png</Icon>
+  <Config Name="Config Directory" Target="/config" Default="/mnt/user/Docker/home-assistant" Mode="rw" Description="This path is where Home Assistant will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
   <ExtraParams>--device /dev/ttyACM0</ExtraParams>
 </Container>
