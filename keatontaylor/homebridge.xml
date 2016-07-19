@@ -3,7 +3,7 @@
   <Beta>False</Beta>
   <Category>HomeAutomation:</Category>
   <Name>homebridge</Name>
-  <Overview>Homebridge is a lightweight NodeJS server you can run on your home network that emulates the iOS HomeKit API.</Overview>
+  <Overview>Homebridge is a lightweight NodeJS server you can run on your home network that emulates the iOS HomeKit API. Testing</Overview>
   <license>MIT</license>
   <Project>https://github.com/nfarina/homebridge</Project>
   <Support>https://github.com/nfarina/homebridge/wiki</Support>
