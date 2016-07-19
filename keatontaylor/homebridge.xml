@@ -29,6 +29,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Icon>hhttp://www.imore.com/sites/imore.com/files/styles/large/public/topic_images/2015/topic-homekit.png?itok=-QwacpHv</Icon>
+  <Icon>https://raw.githubusercontent.com/keatontaylor/unraid-docker-templates/master/keatontaylor/homebrdige-icon.png</Icon>
   <Config Name="Config Directory" Target="/config" Default="/mnt/user/Docker/homebridge" Mode="rw" Description="This is the path where homebridge will store its config files." Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
