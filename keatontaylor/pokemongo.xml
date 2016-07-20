@@ -78,14 +78,6 @@
       <Name>DISPLAY_GYMS</Name>
       <Value>0</Value>
     </Variable>
-        <Variable>
-      <Name>IGNORE</Name>
-      <Value></Value>
-    </Variable>
-        <Variable>
-      <Name>ONLY</Name>
-      <Value></Value>
-    </Variable>
     <Variable>
       <Name>LOCALE</Name>
       <Value>en</Value>
