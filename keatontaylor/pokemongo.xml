@@ -67,32 +67,8 @@
       <Value>30</Value>
     </Variable>
     <Variable>
-      <Name>DISPLAY_POKESTOPS</Name>
-      <Value>0</Value>
-    </Variable>
-    <Variable>
-      <Name>DISPLAY_LURED</Name>
-      <Value>0</Value>
-    </Variable>
-        <Variable>
-      <Name>DISPLAY_GYMS</Name>
-      <Value>0</Value>
-    </Variable>
-    <Variable>
       <Name>LOCALE</Name>
       <Value>en</Value>
-    </Variable>
-    <Variable>
-      <Name>CHINA</Name>
-      <Value>0</Value>
-    </Variable>
-    <Variable>
-      <Name>DEBUG</Name>
-      <Value>0</Value>
-    </Variable>
-    <Variable>
-      <Name>MOCK</Name>
-      <Value>0</Value>
     </Variable>
   </Environment>
   <Icon>https://raw.githubusercontent.com/keatontaylor/unraid-docker-templates/master/keatontaylor/pokemongo-icon.jpg</Icon>
