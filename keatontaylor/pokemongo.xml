@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Beta>False</Beta>
+  <Category>Utilties:</Category>
+  <Name>PokemonGo-Map</Name>
+  <Overview>Live visualization of all pokemon (with option to show gyms and pokestops) in your area. This is a proof of concept that we can load all nearby pokemon given a location. Currently runs on a Flask server displaying a Google Map with markers on it..</Overview>
+  <license>MIT</license>
+  <Project>https://github.com/AHAAAAAAA/PokemonGo-Map</Project>
+  <Support>https://github.com/AHAAAAAAA/PokemonGo-Map/wiki</Support>
+  <Description>
+    Live visualization of all pokemon (with option to show gyms and pokestops) in your area.[br][br]
+    [b][span style='color: #E80000;']Environment Vars:[/span][/b][br]
+    [b]AUTH_SERVICE:[/b]: google, ptc.
+    [b]USERNAME[/b]: Your Username.
+    [b]PASSWORD[/b]: Your Password.
+    [b]LOCATION[/b]: The default location to use.
+    [b]STEP_LIMIT[/b]: The stemp limit to use, defaults to 15.
+    [b]GMAPS_KEY[/b]: Your google maps key.
+    [b]AUTO_REFRESH[/b]: The auto refresh interval, defaults to 30 seconds.
+    [b]DISPLAY_POKESTOPS[/b]: Displays the pokestops, defaults to 0.
+    [b]DISPLAY_LURED[/b]: Displays the lured pokestops only, defaults to 0.
+    [b]DISPLAY_GYMS[/b]: Displays the gyms, defaults to 0.
+    [b]IGNORE[/b]: Comma separated list of Pokemon names or IDs to ignore.
+    [b]ONLY[/b]: Comma separated list of Pokemon names or IDs to only list.
+    [b]LOCALE[/b]: Locale for Pokemon names, defaults to en.
+    [b]CHINA[/b]: Coordinates transfer for China, defaults to 0.
+    [b]DEBUG[/b]: Debug mode, defaults to 0.
+    [b]MOCK[/b]: Mock mode, defaults to 0.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/ellisio/pokemongo-map/</Registry>
+  <GitHub>https://github.com/AHAAAAAAA/PokemonGo-Map</GitHub>
+  <Repository>ellisio/pokemongo-map</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish />
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>AUTH_SERVICE</Name>
+      <Value>ptc</Value>
+    </Variable>
+        <Variable>
+      <Name>USERNAME</Name>
+      <Value></Value>
+    </Variable>
+        <Variable>
+      <Name>PASSWORD</Name>
+      <Value></Value>
+    </Variable>
+        <Variable>
+      <Name>LOCATION</Name>
+      <Value></Value>
+    </Variable>
+        <Variable>
+      <Name>STEP_LIMIT</Name>
+      <Value>15</Value>
+    </Variable>
+        <Variable>
+      <Name>GMAPS_KEY</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>AUTO_REFRESH</Name>
+      <Value>30</Value>
+    </Variable>
+    <Variable>
+      <Name>DISPLAY_POKESTOPS</Name>
+      <Value>0</Value>
+    </Variable>
+    <Variable>
+      <Name>DISPLAY_LURED</Name>
+      <Value>0</Value>
+    </Variable>
+        <Variable>
+      <Name>DISPLAY_GYMS</Name>
+      <Value>0</Value>
+    </Variable>
+        <Variable>
+      <Name>IGNORE</Name>
+      <Value></Value>
+    </Variable>
+        <Variable>
+      <Name>ONLY</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>LOCALE</Name>
+      <Value>en</Value>
+    </Variable>
+    <Variable>
+      <Name>CHINA</Name>
+      <Value>0</Value>
+    </Variable>
+    <Variable>
+      <Name>DEBUG</Name>
+      <Value>0</Value>
+    </Variable>
+    <Variable>
+      <Name>MOCK</Name>
+      <Value>0</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/Docker/homebridge/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://raw.githubusercontent.com/keatontaylor/unraid-docker-templates/master/keatontaylor/pokemongo-icon.jpg</Icon>
+</Container>
