@@ -95,12 +95,5 @@
       <Value>0</Value>
     </Variable>
   </Environment>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/Docker/homebridge/</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
   <Icon>https://raw.githubusercontent.com/keatontaylor/unraid-docker-templates/master/keatontaylor/pokemongo-icon.jpg</Icon>
 </Container>
